@@ -3,7 +3,7 @@ from pymatgen.core.structure import Structure
 from pymatgen.core.surface import SlabGenerator
 import numpy as np
 
-def surface_generator(thickness, width, depth, rhombohedral_miller, padding=1.0):
+def surface_creator(thickness, width, depth, rhombohedral_miller, padding=1.0):
     """This function generates an orhorhombic hematite Fe2O3 layer with 
     specified Miller plane exposed and of desired dimensions and padding.
     
